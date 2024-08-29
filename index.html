@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+    <script src="guess.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Word</title>
+</head>
+<body>
+    <div class="container">
+        <div class="hidden-word" id="hidden-word">_____</div>
+        <input type="text" id="guessinput" placeholder="Guess a Letter" maxlength="1">
+        <button onclick="makeguess()">Guess</button>
+        <div id="result" class="result">Result</div>
+    </div>
+</body>
+</html>
